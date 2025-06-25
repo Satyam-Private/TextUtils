@@ -22,5 +22,7 @@ from . import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('' , views.index , name = 'index'),
-    path('preprocess' , views.preprocess , name = 'preprocess')
+    path('preprocess' , views.preprocess , name = 'preprocess'),
+    path('about_Us' , views.about_Us , name = 'about_Us'),
+    path('contact_Us' , views.contact_Us , name = 'contact_Us')
 ]

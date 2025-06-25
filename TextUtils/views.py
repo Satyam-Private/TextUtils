@@ -29,4 +29,9 @@ def preprocess(request):
         params['Total_characters'] = char_count
 
     return render(request, 'preprocess2.html', params)
-   
+
+def about_Us(request): 
+    return render(request , 'about_Us.html')
+
+def contact_Us(request): 
+    return render(request , 'contact_Us.html')
